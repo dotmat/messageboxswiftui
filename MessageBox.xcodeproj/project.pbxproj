@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,18 @@
 		AF2C027724659AD100A055B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2C027524659AD100A055B7 /* LaunchScreen.storyboard */; };
 		AF2C028224659AD100A055B7 /* MessageBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C028124659AD100A055B7 /* MessageBoxTests.swift */; };
 		AF2C028D24659AD100A055B7 /* MessageBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C028C24659AD100A055B7 /* MessageBoxUITests.swift */; };
+		AF7A07CE24736B59001AF225 /* SMSMessageConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A07CD24736B59001AF225 /* SMSMessageConversationView.swift */; };
+		AF7A07D024736C83001AF225 /* MessageInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A07CF24736C83001AF225 /* MessageInputBar.swift */; };
+		AF926C25246B26BE0076E045 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF926C24246B26BE0076E045 /* DataTypes.swift */; };
+		AF95E78E2465C8C000298FE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF95E78D2465C8C000298FE2 /* LoginView.swift */; };
+		AF95E7902465FD4200298FE2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF95E78F2465FD4200298FE2 /* Session.swift */; };
+		AF96E3DD2475CFE400D6E514 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96E3DC2475CFE400D6E514 /* ImageLoader.swift */; };
+		AFA39BF1246C4CA700DD759D /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA39BF0246C4CA700DD759D /* KeyboardResponder.swift */; };
+		AFC499382469A07C001752D5 /* UsersMessageBoxNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC499372469A07C001752D5 /* UsersMessageBoxNumbers.swift */; };
+		AFC4993B2469B00E001752D5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AFC4993A2469B00E001752D5 /* Alamofire */; };
+		AFC4993D2469B0F6001752D5 /* NumbersInteractedWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4993C2469B0F6001752D5 /* NumbersInteractedWithView.swift */; };
+		AFD90C472465A01000B5D0D8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD90C462465A00F00B5D0D8 /* AppView.swift */; };
+		AFD90C492465A01800B5D0D8 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD90C482465A01800B5D0D8 /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		AF2C028824659AD100A055B7 /* MessageBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2C028C24659AD100A055B7 /* MessageBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBoxUITests.swift; sourceTree = "<group>"; };
 		AF2C028E24659AD100A055B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7A07CD24736B59001AF225 /* SMSMessageConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSMessageConversationView.swift; sourceTree = "<group>"; };
+		AF7A07CF24736C83001AF225 /* MessageInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputBar.swift; sourceTree = "<group>"; };
+		AF926C24246B26BE0076E045 /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		AF95E78D2465C8C000298FE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF95E78F2465FD4200298FE2 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		AF96E3DC2475CFE400D6E514 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AFA39BF0246C4CA700DD759D /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		AFC499372469A07C001752D5 /* UsersMessageBoxNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMessageBoxNumbers.swift; sourceTree = "<group>"; };
+		AFC4993C2469B0F6001752D5 /* NumbersInteractedWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersInteractedWithView.swift; sourceTree = "<group>"; };
+		AFD90C462465A00F00B5D0D8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		AFD90C482465A01800B5D0D8 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		AFD90C4A2465A14000B5D0D8 /* MessageBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessageBox.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC4993B2469B00E001752D5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +124,18 @@
 		AF2C026924659AD000A055B7 /* MessageBox */ = {
 			isa = PBXGroup;
 			children = (
+				AFD90C4A2465A14000B5D0D8 /* MessageBox.entitlements */,
 				AF2C026A24659AD000A055B7 /* AppDelegate.swift */,
 				AF2C026C24659AD000A055B7 /* SceneDelegate.swift */,
 				AF2C026E24659AD000A055B7 /* ContentView.swift */,
+				AF95E78F2465FD4200298FE2 /* Session.swift */,
+				AFD90C462465A00F00B5D0D8 /* AppView.swift */,
+				AFA39BF0246C4CA700DD759D /* KeyboardResponder.swift */,
+				AF926C24246B26BE0076E045 /* DataTypes.swift */,
+				AF96E3DC2475CFE400D6E514 /* ImageLoader.swift */,
+				AFC499362469A064001752D5 /* Numbers And Messages */,
+				AFD90C482465A01800B5D0D8 /* AuthView.swift */,
+				AF95E78D2465C8C000298FE2 /* LoginView.swift */,
 				AF2C027024659AD100A055B7 /* Assets.xcassets */,
 				AF2C027524659AD100A055B7 /* LaunchScreen.storyboard */,
 				AF2C027824659AD100A055B7 /* Info.plist */,
@@ -136,6 +170,17 @@
 			path = MessageBoxUITests;
 			sourceTree = "<group>";
 		};
+		AFC499362469A064001752D5 /* Numbers And Messages */ = {
+			isa = PBXGroup;
+			children = (
+				AFC499372469A07C001752D5 /* UsersMessageBoxNumbers.swift */,
+				AFC4993C2469B0F6001752D5 /* NumbersInteractedWithView.swift */,
+				AF7A07CD24736B59001AF225 /* SMSMessageConversationView.swift */,
+				AF7A07CF24736C83001AF225 /* MessageInputBar.swift */,
+			);
+			path = "Numbers And Messages";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +197,9 @@
 			dependencies = (
 			);
 			name = MessageBox;
+			packageProductDependencies = (
+				AFC4993A2469B00E001752D5 /* Alamofire */,
+			);
 			productName = MessageBox;
 			productReference = AF2C026724659AD000A055B7 /* MessageBox.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +272,9 @@
 				Base,
 			);
 			mainGroup = AF2C025E24659AD000A055B7;
+			packageReferences = (
+				AFC499392469B00E001752D5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = AF2C026824659AD000A055B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF96E3DD2475CFE400D6E514 /* ImageLoader.swift in Sources */,
+				AF95E7902465FD4200298FE2 /* Session.swift in Sources */,
+				AF95E78E2465C8C000298FE2 /* LoginView.swift in Sources */,
+				AFC4993D2469B0F6001752D5 /* NumbersInteractedWithView.swift in Sources */,
+				AF926C25246B26BE0076E045 /* DataTypes.swift in Sources */,
+				AF7A07D024736C83001AF225 /* MessageInputBar.swift in Sources */,
+				AFD90C472465A01000B5D0D8 /* AppView.swift in Sources */,
+				AFA39BF1246C4CA700DD759D /* KeyboardResponder.swift in Sources */,
+				AF7A07CE24736B59001AF225 /* SMSMessageConversationView.swift in Sources */,
+				AFC499382469A07C001752D5 /* UsersMessageBoxNumbers.swift in Sources */,
+				AFD90C492465A01800B5D0D8 /* AuthView.swift in Sources */,
 				AF2C026B24659AD000A055B7 /* AppDelegate.swift in Sources */,
 				AF2C026D24659AD000A055B7 /* SceneDelegate.swift in Sources */,
 				AF2C026F24659AD000A055B7 /* ContentView.swift in Sources */,
@@ -434,16 +496,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessageBox/MessageBox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MessageBox/Preview Content\"";
+				DEVELOPMENT_TEAM = GU5TWBZQL8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MessageBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbmlabs.MessageBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chickenandbee.MessageBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,16 +519,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessageBox/MessageBox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MessageBox/Preview Content\"";
+				DEVELOPMENT_TEAM = GU5TWBZQL8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MessageBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbmlabs.MessageBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chickenandbee.MessageBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -588,6 +658,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFC499392469B00E001752D5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFC4993A2469B00E001752D5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFC499392469B00E001752D5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF2C025F24659AD000A055B7 /* Project object */;
 }
